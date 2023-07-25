@@ -7,3 +7,4 @@ base_statics/global/image/bootstrap-icons/
 *.pot
 *.pyc
 __pycache__ 
+*.gitignore
