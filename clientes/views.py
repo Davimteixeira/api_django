@@ -5,4 +5,5 @@ from clientes.models import Cliente
 class ClientesViewSet(viewsets.ModelViewSet):
     """Listando clientes"""
     queryset = Cliente.objects.all()
-    serializer_class = ClienteSerialize
+    serializer_class = ClienteSerializer
+    

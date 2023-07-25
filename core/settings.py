@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 
     'clientes',
     'rest_framework',
+    'rest_framework_swagger',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -83,6 +85,7 @@ DATABASES ={
         'USER':'postgres',
         'PASSWORD':'postgres',
         'HOST':'localhost',
+        'PORT': 5433
     }
 }
 
